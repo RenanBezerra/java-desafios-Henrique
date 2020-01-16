@@ -1,0 +1,10 @@
+package ex4;
+
+public class Gerente extends Funcionario {
+	
+	
+	public void bonificação(float boni) {
+		super.bonificação(boni);
+		this.salario
+	}
+}

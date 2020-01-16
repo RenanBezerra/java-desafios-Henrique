@@ -1,0 +1,12 @@
+package br.com.main;
+
+import ex4.Gerente;
+
+public class testeex4 {
+
+	public static void main(String[] args) {
+		 Gerente g1 = new Gerente("Pedro",20,4.000);
+
+	}
+
+}

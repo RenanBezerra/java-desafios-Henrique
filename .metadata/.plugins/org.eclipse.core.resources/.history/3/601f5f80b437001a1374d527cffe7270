@@ -1,0 +1,66 @@
+package br.com.main;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import br.com.model.Pessoa;
+
+public class teste {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Pessoa p1 = new Pessoa("João",15);
+		Pessoa p2 = new Pessoa("Leandro",21);
+		Pessoa p3 = new Pessoa("Paulo",17);
+		Pessoa p4 = new Pessoa("Jessica",18);
+
+	
+	List <Pessoa>pessoas = new ArrayList<>();
+	pessoas.add(p1);
+	pessoas.add(p2);
+	pessoas.add(p3);
+	pessoas.add(p4);
+	
+	// imprime o nome de todos 
+	for (Pessoa pessoa : pessoas) {
+		
+		System.out.println("Nome: "+pessoa.getNome()+"  Idade: "+ pessoa.getIdade());
+	
+	}
+	// imprime o nome do mais velho
+	 int maior = 0;
+	 String nomeMaior = "",nomeMenor = "";
+	for (Pessoa pessoa : pessoas) {
+		if(pessoa.getIdade()> maior) {
+			maior = pessoa.getIdade();
+			nomeMaior = pessoa.getNome();
+		}
+		
+	}
+	System.out.println("A pessoa mais velha é "+ nomeMaior+" "+maior);
+	int menor = maior;
+	for (Pessoa pessoa : pessoas) {
+		if (pessoa.getIdade()<menor) {
+			menor = pessoa.getIdade();
+			nomeMenor= pessoa.getNome();
+		}
+		;
+	}
+	System.out.println(" A pessoa mais nova é "+nomeMenor +" "+menor);
+	 for (int i = 0; i < args.length; i++) {
+		 Pessoa p = pessoas.get(i);
+		 
+		 if (p.getIdade()<maior) {
+				menor  = p.getIdade();
+				nomeMenor = p.getNome();
+		 
+		 pessoas.get(i);
+		 pessoas.remove(i);
+	}
+	
+		 
+		 
+	}
+
+}
+	}

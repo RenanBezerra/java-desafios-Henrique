@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="teste1.main"/>
+    <fullyQualifiedTypeName name="teste1.Veiculo"/>
+    <fullyQualifiedTypeName name="herança.Veiculo"/>
+    <fullyQualifiedTypeName name="aula2.Carro"/>
+    <fullyQualifiedTypeName name="aula2.Aviao"/>
+    <fullyQualifiedTypeName name="aula3.Carro"/>
+    <fullyQualifiedTypeName name="aula3.Aviao"/>
+    <fullyQualifiedTypeName name="aula3.Caminhao"/>
+    <fullyQualifiedTypeName name="project4.Livro"/>
+    <fullyQualifiedTypeName name="project4.Loja"/>
+    <fullyQualifiedTypeName name="project4.VideoGame"/>
+    <fullyQualifiedTypeName name="project4.Produto"/>
+    <fullyQualifiedTypeName name="br.com.model.Pessoa"/>
+    <fullyQualifiedTypeName name="ex4.Gerente"/>
+    <fullyQualifiedTypeName name="ex4.Supervisor"/>
+    <fullyQualifiedTypeName name="ex4.Vendedor"/>
+    <fullyQualifiedTypeName name="aula01.Veiculo"/>
+    <fullyQualifiedTypeName name="aula02.Aviao"/>
+    <fullyQualifiedTypeName name="aula02.Carro"/>
+    <fullyQualifiedTypeName name="br.com.gft.models.Aviao"/>
+    <fullyQualifiedTypeName name="br.com.gft.models.Carro"/>
+    <fullyQualifiedTypeName name="br.com.gft.models.Caminhao"/>
+    <fullyQualifiedTypeName name="br.com.gft.interfaces.Imposto"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="br.com.gft.models.Livro"/>
+    <fullyQualifiedTypeName name="br.com.gft.models.VideoGame"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="br.com.gft.models.Loja"/>
+</qualifiedTypeNameHistroy>
